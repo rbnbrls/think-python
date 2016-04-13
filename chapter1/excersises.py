@@ -19,8 +19,8 @@ ml = km / 1.61
 print(ml)
 
 #If you run a 10 kilometer race in 42 minutes 42 seconds,
-    # what is your average pace (time per mile in minutes and seconds)?
-    # What is your average speed in miles per hour?
+ # what is your average pace (time per mile in minutes and seconds)?
+ # What is your average speed in miles per hour?
 print("Excersise 2.3")
 distance_km = 10
 distance_ml = distance_km/1.61
