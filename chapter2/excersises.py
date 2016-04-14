@@ -29,18 +29,19 @@ print("Wholesale for ", amount_books, "copies is:$",wholesale)
 
 #If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?
 
+""""in seconds"""
 easy_pace = (8*60)+15
 tempo = (7*60)+12
 run_time = 2 * easy_pace + 3 * tempo
 run_minutes = run_time / 60
 time = int(run_minutes)-8
-print("I get home for breakfast at: 7:",time)
-
+print("I get home for breakfast at: 7:",time, "am")
+""""in minutes"""
 easy_pace = 8.25
 tempo = 7.2
 run_time = 2 * easy_pace + 3 * tempo
 time = int(run_time)-8
-print("I get home for breakfast at: 7:",time)
+print("I get home for breakfast at: 7:",time, "am")
 
 
 
